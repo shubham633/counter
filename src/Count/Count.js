@@ -54,12 +54,8 @@ class Count extends Component {
         {
             semiVowelCount++;
         }
-        else if(upperText[iteration]===' ' && upperText[iteration+1]!==' ' &&  upperText[iteration-1]!==' ')
-        {
-            wordCount++;
-        }
         else if(upperText[iteration]===' '){
-            continue
+            wordCount++;
         }
         else
         consonantCount++
